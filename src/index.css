@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+.input {
+    @apply w-full border p-2 rounded mb-2;
+  }
+  
+  .btn {
+    @apply bg-black text-white py-2 rounded;
+  }
+  
+  .section-title {
+    @apply text-lg font-semibold mt-6 mb-2;
+  }
+  
+  .resume-title {
+    @apply font-semibold border-b-2 mb-1;
+  }
+  
